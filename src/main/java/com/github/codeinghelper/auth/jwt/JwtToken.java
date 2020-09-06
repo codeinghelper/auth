@@ -13,13 +13,7 @@ import com.github.codeinghelper.util.StringUtil;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * @author ：frank
- * @BelongsProject: com.github.codeinghelper.jwt
- * @date ：Created in 2020/8/13 11:29
- * @description ：
- * @modified By：
- */
+
 public class JwtToken {
     public static Optional<Map<String, Claim>> getClaims(String token, String jwtKey) {
         DecodedJWT decodedJWT;

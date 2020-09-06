@@ -13,14 +13,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import java.lang.reflect.Method;
 import java.util.Map;
-
-/**
- * @author ：frank
- * @date ：Created in 2020/8/7 9:11
- * @description ：
- * @modified By：
- */
-
 @Aspect
 @Component
 public class ActionRightvalidator {
